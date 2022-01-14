@@ -1,0 +1,30 @@
+#container{
+    width: 37rem;
+    
+    display: flex;
+    flex-flow: row wrap;
+    border:1px solid black;
+    padding:1rem;
+}
+.cells{
+    display: flex;
+    flex-flow: row wrap;
+    background: green;
+    border:1px solid black;
+    width: 7rem;
+    height: 7rem;
+   
+
+}
+#container>div{
+    display: flex;
+    flex-flow: row wrap;
+    background: green;
+    border:1px solid black;
+    width: 2rem;
+    height: 2rem;
+
+}
+.cells:focus{
+    background: blue;
+}
